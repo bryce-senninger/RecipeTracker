@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/black-and-white-breakfast-chairs-1924818.jpg");
+    background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+}
+
+li {
+padding: 5px;
+margin: 5px;
+background: #faebd7;
+}
+
+.label {
+font-weight: bold;
+}
+
+.create-update-form {
+padding: 5px;
+margin: 5px;
+background: aqua;
+}
+
+.form-group {
+margin-bottom: 5px;
+}
+
+.content {
+    text-align: center;
+    background: rgb(216, 185, 145, 0.8);
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 8px #888888;
+    border-style: double;
+    border-color: white;
+    border-width: 5px;
+    line-height: 47px;
+}
+
+h1 {
+    background-image: linear-gradient(to right, rgb(107, 151, 117, 0.95), rgb(69, 116, 81, 0.95));
+}

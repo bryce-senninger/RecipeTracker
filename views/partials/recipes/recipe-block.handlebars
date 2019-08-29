@@ -1,0 +1,9 @@
+<li>
+	{{recipe_name}}
+
+	<button class="change-tried" data-id="{{id}}" data-newtried="{{tried}}">
+		{{#if tried}}Let's cook it up!!{{else}}Tried this one already!{{/if}}
+	</button>
+
+	<button class="delete-recipe" data-id="{{this.id}}">Delete recipe</button>
+</li>
