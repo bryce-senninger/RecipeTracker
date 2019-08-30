@@ -22,10 +22,6 @@ body {
     font-weight: bold;
 }
 
-.create-update-form {
-    background: aqua;
-}
-
 .form-group {
     background: black;
     max-width: 80%;
