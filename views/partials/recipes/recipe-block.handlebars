@@ -1,9 +1,11 @@
 <p class="recipeList">
 	{{recipe_name}}
+	<span class="buttonRight">
+		<button class="change-tried" data-id="{{id}}" data-newtried="{{tried}}">
+			{{#if tried}}Let's cook it up!{{else}}Let's try this one again sometime!{{/if}}
+		</button>
 
-	<button class="change-tried" data-id="{{id}}" data-newtried="{{tried}}">
-		{{#if tried}}Let's cook it up!{{else}}Let's try this one again sometime!{{/if}}
-	</button>
+		<button class="delete-recipe" data-id="{{this.id}}">Delete recipe</button>
+	</span>
 
-	<button class="delete-recipe" data-id="{{this.id}}">Delete recipe</button>
 </p>
