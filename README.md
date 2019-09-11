@@ -63,4 +63,4 @@ This project uses:
 
 Github Repository: https://github.com/bryce-senninger/RecipeTracker
 
-Heroku Deployed App: https://.herokuapp.com
+Heroku Deployed App: https://trackrecipes.herokuapp.com
